@@ -281,7 +281,7 @@ create_backup_archive() {
 		rm -rf "$RAMFS"
 	}
 	rm -f "$CONFFILES"
-	return "$err"
+	return 0
 }
 
 
